@@ -97,3 +97,10 @@
       font-size: 8px;
     }
   }
+
+  p,ul{
+    text-align: justify;
+  }
+#unit{
+  font-size: 200% !important;
+}

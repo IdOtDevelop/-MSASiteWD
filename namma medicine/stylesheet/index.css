@@ -1,17 +1,26 @@
-.navi{
-  margin-left: 40px !important;
+.card-text{
+  font-size: 20px;
 }
-.navbar-nav{
-  margin-left: 400px !important;
-}
-.nav-item{
-  width: 150px !important;
-  /* border: 1px solid black; */
-}
-@media only screen and (max-width: 500px){
-  
-  .navi{
-    
-    flex-wrap: wrap;
+
+@media only screen and (max-width: 600px) {
+  #second{
+    display: flex;
+    flex-direction: column-reverse;
   }
+ 
+}
+
+p{
+  text-align: justify;
+}
+.img-fluid{
+  border-radius: 8px;
+}
+#heading{
+  text-align:center;
+  background-color:  #007BFF;
+  height: 70px;
+  padding-top: 10px;
+  color: white;
+  ;
 }
