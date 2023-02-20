@@ -1,13 +1,45 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/main
 .card-text{
   font-size: 20px;
 }
 
-<<<<<<< HEAD
-=======
+
+.nav-link {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: large !important;
+}
+
+footer {
+  background: #212529;
+}
+
+.socialMedia{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.fa-brands{
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 100%;
+}
+
+.fa-brands:hover{
+  color: #212529;
+  background-color: white;
+  transform: scale(1.2);
+  transition:.3s ease-in-out;
+}
+
+
 @media only screen and (max-width: 600px) {
   #second{
     display: flex;
@@ -15,15 +47,11 @@
   }
  
 }
->>>>>>> origin/main
 
 p{
   text-align: justify;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
 .img-fluid{
   border-radius: 8px;
 }
@@ -36,14 +64,6 @@ p{
   ;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 600px) {
-  #second {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
-=======
 
 
 body {
@@ -68,4 +88,3 @@ body {
   }
 }
 
->>>>>>> origin/main
