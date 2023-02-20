@@ -1,13 +1,29 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 .card-text{
   font-size: 20px;
 }
 
+<<<<<<< HEAD
+=======
+@media only screen and (max-width: 600px) {
+  #second{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+ 
+}
+>>>>>>> origin/main
 
 p{
   text-align: justify;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 .img-fluid{
   border-radius: 8px;
 }
@@ -20,9 +36,36 @@ p{
   ;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
   #second {
     display: flex;
     flex-direction: column-reverse;
   }
 }
+=======
+
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#fadding {
+  
+  
+  padding: 1rem;
+  
+  animation-name: fade-in;
+  animation-duration: 9s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+>>>>>>> origin/main
