@@ -8,7 +8,7 @@ async function loadEvents()
 {
     var data={};
 
-    await fetch('http://localhost:3000/api/events', {
+    await fetch('https://node-host.onrender.com/api/events', {
         // mode: "no-cors",
         method: "GET",
         headers: {
