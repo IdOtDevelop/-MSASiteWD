@@ -1,26 +1,226 @@
-.card-text{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+   /* body {
+    background-color: #007BFF;
+    ;
+  } */
+#par{
   font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  #second{
-    display: flex;
-    flex-direction: column-reverse;
-  }
- 
+#count{
+  height: 500px;
+  background-color: #3c84d1;
 }
 
+#sat {
+    width: 21vmin;
+    height: 21vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    border-radius: 0.5em;
+   
+  }
+  i {
+    color:white;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+    line-height: 0;
+  }
+
+  .horizontal-scroll {
+    display: flex;
+    gap: 112px;
+    height: 320px;
+    overflow-x: auto;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .horizontal-scroll__item {
+    align-items: center;
+    background-color: #3c84d1;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    flex: 0 0 320px;
+    font-size: 40px;
+    justify-content: center;
+    scroll-snap-align: start;
+  }
+
+
+
+
+  @media screen and (max-width: 1024px) {
+    #sat {
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+
+    #sat {
+      width: calc(50% - 40px);
+      height: 30vmin;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+  
+    #sat {
+      width: 100%;
+      height: 25vmin;
+      font-size: 8px;
+    }
+  }
+
+  p,ul{
+    text-align: justify;
+  }
+#unit{
+  font-size: 200% !important;
+}
+
+#add{
+  display: flex;
+  flex-direction: row;
+  
+}
+.about{
+  /* padding-top: 15px; */
+  padding-left: 20px;
+  
+}
+#sat{
+  padding-top: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  #add{
+    display: flex;
+    flex-direction: column;
+  }
+  .about{
+      padding-left: 5px;
+  }
+ #count{
+  height: 350px;
+  padding: 0;
+ }
+ #sat{
+  /* padding-top: 20px; */
+ }
+}
+
+
+
+
+.wrapper.four {
+  background-color:  #3c84d1;
+  font-size: 3rem;
+  font-family: "Play", sans-serif;
+}
+.four .type{
+  padding: 0.2rem 0.2rem;
+  width: auto;
+  margin: auto;
+}
+.typing{
+  color: #ffffff;
+}
+.four h2 {
+  width: 10ch;
+  border-right: 4px solid white;
+  margin: 2rem auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+  from {
+      width: 0;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
+#par{
+  padding-top: 3px;
+  line-height: 38px;
+}
+#sat{
+  padding-top: 25px;
+}
 p{
-  text-align: justify;
+  text-indent: 50px !important;
 }
-.img-fluid{
-  border-radius: 8px;
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
-#heading{
-  text-align:center;
-  background-color:  #007BFF;
-  height: 70px;
-  padding-top: 10px;
-  color: white;
-  ;
+.fadding,ul {
+  
+  
+  padding: 1rem;
+  
+  animation-name: fade-in;
+  animation-duration: 9s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: large !important;
+}
+
+.carousel {
+  height: 90vh !important;
+  overflow: hidden;
+}
+
+#par {
+  font-size: 1.2 rem;
 }
