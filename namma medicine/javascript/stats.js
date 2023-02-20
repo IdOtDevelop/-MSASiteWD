@@ -1,5 +1,5 @@
 let valueDisplays = document.querySelectorAll(".num");
-let interval = 100;
+let interval=200;
 
 valueDisplays.forEach((valueDisplay) => {
   let startValue = 0;
@@ -13,3 +13,4 @@ valueDisplays.forEach((valueDisplay) => {
     }
   }, duration);
 });
+
