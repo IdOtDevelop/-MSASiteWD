@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  min-width: 100vh !important;
+}
+
+/* Navbar */
+
+.nav-link {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: large !important;
+}
+
+
+/* Events */
+
+.events{
+    width: 100% !important;
+    position: relative !important;
+}
+
+.wrapper{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.wrapper h2{
+    font-weight: 600;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 50vh !important;
+  height: auto;
+
+  margin: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(9.5 rem);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: rotateY(0px);
+  opacity: 1;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.content{
+  padding: 0.5rem;
+}
+
+.content h4{
+  font-weight:600 !important;
+}
+
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.foot p{
+  margin: 0 !important;
+}
+
+.date{
+  display: inline;
+}
+
+.btn{
+  display: inline !important;
+}
+
+
+
+/* FOOTER STYLES */
+
+footer{
+  bottom: 0 !important;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+footer a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+.socialMedia{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.fa-brands{
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 100%;
+}
+
+.fa-brands:hover{
+  color: #212529;
+  background-color: white;
+  transform: scale(1.2);
+  transition:.3s ease-in-out;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+font-family: "Poppins", sans-serif !important;
+font-weight: 600 !important;
+font-size: large !important;
+}
+#dropdownMenuLink{
+  margin-top:9px ;
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: large !important;
+}
