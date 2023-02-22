@@ -56,30 +56,39 @@
     </nav>
     <section class="register">
         <div class="register-wrap p-3">
-            <h2>Add Events</h2>
-            <form class="m-3" action="https://node-host.onrender.com/api/events" method="post">
-                <div class="form-group m-3">
-                    <label for="">Event Name</label>
-                    <input type="text" class="form-control" name="name" aria-describedby=""
-                        placeholder="Enter the event name">
+            <h2 style="border-bottom: 3px solid #342f87;">Add Events</h2>
+            <div class="row w-100">
+                <div class="col-md-6">
+                    <img class="img-fluid"
+                        src="https://img.freepik.com/free-vector/colleagues-preparing-corporate-party-time-management-deadline-brand-event_335657-3083.jpg?w=996&t=st=1677001221~exp=1677001821~hmac=ad021d10f87d1e5f466145786a644954d05936e4db28f96f7e37c4440dde5d43"
+                        alt="">
                 </div>
-                <div class="form-group m-3">
-                    <label for="">Description</label>
-                    <textarea type="text" class="form-control" id="address" name="desc" aria-describedby=""
-                        placeholder="Enter event description"></textarea>
+                <div class="col-md-6 ">
+                    <form class="m-3 p-3" action="https://node-host.onrender.com/api/events" method="post">
+                        <div class="form-group m-3">
+                            <label for="">Event Name</label>
+                            <input type="text" class="form-control" name="name" aria-describedby=""
+                                placeholder="Enter the event name">
+                        </div>
+                        <div class="form-group m-3">
+                            <label for="">Description</label>
+                            <textarea type="text" class="form-control" id="address" name="desc" aria-describedby=""
+                                placeholder="Enter event description"></textarea>
+                        </div>
+                        <div class="form-group m-3">
+                            <label for="">Event Image</label>
+                            <input type="text" class="form-control" name="image" aria-describedby=""
+                                placeholder="Enter the image link">
+                        </div>
+                        <div class="form-group m-3">
+                            <label for="">Event date</label>
+                            <input placeholder="Type Date of Birth" type="text" onfocus="(this.type = 'date')" class="form-control" name="date"
+                                aria-describedby="" placeholder="Enter your DOB">
+                            </div>
+                            <button type="submit" class="btn btn-primary m-3">Add</button>
+                            </form>
                 </div>
-                <div class="form-group m-3">
-                    <label for="">Event Image</label>
-                    <input type="text" class="form-control" name="image" aria-describedby=""
-                        placeholder="Enter the image link">
                 </div>
-                <div class="form-group m-3">
-                    <label for="">Event date</label>
-                    <input placeholder="Type Date of Birth" type="text" onfocus="(this.type = 'date')"
-                        class="form-control" name="date" aria-describedby="" placeholder="Enter your DOB">
-                </div>
-                <button type="submit" class="btn btn-primary m-3">Add</button>
-            </form>
         </div>
     </section>
 

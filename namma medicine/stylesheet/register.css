@@ -22,7 +22,7 @@
 
 .register-wrap{
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
 }
@@ -45,10 +45,9 @@
 
 
 form{
-    width: 45% !important;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
 }
-
 form label{
     font-weight: bold !important;
 }

@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body{
+  min-width: 100vh !important;
+}
+
 /* Navbar */
 
 .nav-link {
@@ -53,6 +57,18 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(9.5 rem);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: rotateY(0px);
+  opacity: 1;
+}
+
 .card img {
   border-radius: 5px 5px 0 0;
 }
@@ -65,8 +81,31 @@
   font-weight:600 !important;
 }
 
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.foot p{
+  margin: 0 !important;
+}
+
+.date{
+  display: inline;
+}
+
+.btn{
+  display: inline !important;
+}
+
+
 
 /* FOOTER STYLES */
+
+footer{
+  bottom: 0 !important;
+}
 
 .text-small {
   font-size: 0.9rem;

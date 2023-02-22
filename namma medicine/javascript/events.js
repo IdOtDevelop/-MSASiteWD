@@ -26,7 +26,7 @@ async function loadEvents()
     data.forEach(event =>
     {
         const card=document.createElement("div");
-        card.className="card";
+        card.classList="card reveal";
         const image=document.createElement("img");
         image.src=event.image;
         const content=document.createElement("div");
@@ -35,12 +35,21 @@ async function loadEvents()
         name.innerHTML=event.name;
         const desc=document.createElement("p");
         desc.innerHTML=event.desc;
+        const foot=document.createElement("div");
+        foot.className="foot";
         const date=document.createElement("p");
-        date.innerHTML=event.date;
+        date.innerHTML="Date : "+event.date;
+        date.className="date";
+        const button=document.createElement("button");
+        button.innerHTML="Register";
+        button.classList="btn btn-primary";
+
+        foot.appendChild(date);
+        foot.appendChild(button);
 
         content.appendChild(name);
         content.appendChild(desc);
-        content.appendChild(date);
+        content.appendChild(foot);
 
         card.appendChild(image);
         card.appendChild(content);
