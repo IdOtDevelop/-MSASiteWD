@@ -53,16 +53,21 @@
               <div  class="d-flex">
               <div class="mt-3 me-" ><span class="material-symbols-outlined" id="icon"> headset_mic</span></div>
               <div class="">
-                <div class="dropdown mt-3 me-3 " id="pad">
-                  <a class="dropdown-toggle fw-light " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Who we are
-                  </a>
+                <div class="dropdown mt-3 me-3">
+                  <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Who we are </a>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="./team.html">Our Team</a></li>
-                    <li><a class="dropdown-item" href="./units.html">Units</a></li>
-                    <li><a class="dropdown-item" href="#">Achievement</a></li>
+                      <li><a class="dropdown-item" href="#">Units</a></li>
+                      <li class="dropdown dropend">
+                          <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Team</a>
+                          <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1">
+                              <li><a class="dropdown-item" href="#">Mentor</a></li>
+                              <li><a class="dropdown-item" href="#">Founders & Directors</a></li>
+                              <li><a class="dropdown-item" href="#">patrons</a></li>
+                          </ul>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Achievement</a></li>
                   </ul>
-                </div>
+              </div>
               </div>
               </div>
             </a>
@@ -183,7 +188,7 @@
 person
 </span></div>
       <div>
-        <div>        <span class="num" data-val="0">0+</span></div>
+        <div>        <span class="num" data-val="3500">0+</span></div>
         <div>        <span class="text" style="font-size: 25px;">Members</span></div>
       </div>
       </div>
@@ -195,7 +200,7 @@ person
             </span>
       </div>
       <div>
-        <div>        <span class="num" data-val="0">0+</span></div>
+        <div>        <span class="num" data-val="38">0+</span></div>
         <div>        <span class="text" style="font-size: 25px;">Events</span></div>
       </div>
       </div>
@@ -206,8 +211,8 @@ person
             handshake
             </span></div>
       <div>
-        <div>        <span class="num" data-val="0">0+</span></div>
-        <div>        <span class="text" style="font-size: 25px;">Partners</span></div>
+        <div>        <span class="num" data-val="80">0+</span></div>
+        <div>        <span class="text" style="font-size: 25px;">Mentors</span></div>
       </div>
       </div>
   
@@ -357,6 +362,15 @@ person
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    let dropdowns = document.querySelectorAll('.dropdown-toggle')
+dropdowns.forEach((dd)=>{
+    dd.addEventListener('click', function (e) {
+        var el = this.nextElementSibling
+        el.style.display = el.style.display==='block'?'none':'block'
+    })
+})
   </script>
 </body>
 
