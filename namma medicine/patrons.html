@@ -41,10 +41,11 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
+    
             <div class="collapse navbar-collapse" id="collapsibleNavbar" class="navi">
                 <ul class="navbar-nav mx-auto   ">
                     <li class="nav-item">
-                        <a class="nav-link " href="./index.html">
+                        <a class="nav-link  active" href="#">
                             <div class="d-flex">
                                 <div class="mt-2"><span class="material-symbols-outlined " id="icon">
                                         home
@@ -58,14 +59,22 @@
                             <div class="mt-3 me-"><span class="material-symbols-outlined" id="icon"> headset_mic</span>
                             </div>
                             <div class="">
-                                <div class="dropdown mt-3 me-3 " id="pad">
-                                    <a class="dropdown-toggle fw-light active" href="#" role="button"
-                                        id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Who we are
-                                    </a>
+                                <div class="dropdown mt-3 me-3">
+                                    <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                        aria-expanded="false"> Who we are </a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Our Team</a></li>
-                                        <li><a class="dropdown-item active " href="./units.html">Units</a></li>
+                                        <li><a class="dropdown-item" href="#">Units</a></li>
+                                        <li class="dropdown dropend">
+                                            <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">Our
+                                                Team</a>
+                                            <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1">
+                                                <li><a class="dropdown-item" href="./Mentors.html">Mentor</a></li>
+                                                <li><a class="dropdown-item" href="./founder.html">Founders & Directors</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="./patrons.html">patrons</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a class="dropdown-item" href="#">Achievement</a></li>
                                     </ul>
                                 </div>
@@ -73,11 +82,10 @@
                         </div>
                         </a>
                     </li>
-
+    
                     <li class="nav-item ">
                         <div class="d-flex">
-                            <div class="mt-3"><span class="material-symbols-outlined" id="icon"> headset_mic</span>
-                            </div>
+                            <div class="mt-3"><span class="material-symbols-outlined" id="icon"> headset_mic</span></div>
                             <div class="">
                                 <div class="dropdown mt-3 me-3">
                                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
@@ -90,21 +98,10 @@
                                         <li><a class="dropdown-item" href="#">Previous Campaigns</a></li>
                                     </ul>
                                 </div>
-
                             </div>
                         </div>
                         </a>
                     </li>
-
-
-                    <!-- <li class="nav-item ">
-          <a class="nav-link pe-3" href="./units.html" if="unit">
-            
-            <span class="material-symbols-outlined" id="icon">
-              self_improvement
-              </span>
-            Activites</a>
-        </li> -->
                     <li class="nav-item ">
                         <a class="nav-link " href="">
                             <div class="d-flex">
@@ -136,7 +133,7 @@
                         </a>
                     </li>
                     <li class="nav-item ">
-
+    
                         <a class="nav-link " href="">
                             <div class="d-flex">
                                 <div class="mt-2"> <span class="material-symbols-outlined" id="icon">
@@ -157,10 +154,11 @@
                         </a>
                     </li>
                 </ul>
-
+    
             </div>
         </div>
     </nav>
+
     <!-- heading -->
     <div id="heading">
         <h1>Meet Our Team</h1>
