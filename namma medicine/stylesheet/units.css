@@ -184,7 +184,18 @@ body {
   /* border: 1px solid black; */
   padding-left: 20px !important;
   padding-right: 30px !important;
+
 }
+
+.card-title{
+  font-weight: bold;
+}
+
+.ww:hover{
+  color: white;
+  background-image: linear-gradient(45deg, #695EE6 0%, #FF7A7A 85%);
+}
+
 .row>*{
   padding-left: 20px !important;
   padding-right: 20px;

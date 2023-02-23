@@ -23,6 +23,10 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -151,17 +155,17 @@
 
   <!-- heading -->
   <div id="heading">
-    <h1> Our Units</h1>
+    <h1><b>Our Units</b> </h1>
   </div><br>
 
   <!-- cards -->
 
   <div class="container ">
-    <div class="row rounded ww">
+    <div class="row rounded ww" data-aos="fade-right">
       <div class="col-md-4" class="img-card">
         <img class="img-fluid rounded  " style="height: 35vh;" src="./images/unit.jpg" alt="">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 " data-aos="zoom-out-right">
         <div class="card-body" style="max-width: 70000px;" id="fadding">
           <h3 class="card-title">BASIC SCIENCE UNIT</h3><br>
           <p class="card-text">Namma medicine(NM) has taken up the mission to strengthen the foundation of the
@@ -176,9 +180,9 @@
     <br><br><br><br>
 
 
-    <div class="row ww" id="second">
+    <div class="row ww" data-aos="fade-right" id="second">
 
-      <div class="col-md-8">
+      <div class="col-md-8 " data-aos="zoom-out-right">
         <div class="card-body p-3" style="max-width: 70000px;" id="fadding">
           <h3 class="card-title">ADVANCED CLINICAL STUDIES UNIT</h3><br>
           <p class="card-text">As practical knowledge is the key to a good practitioner , NM provides platforms to
@@ -194,11 +198,11 @@
 
     <br><br><br><br>
 
-    <div class="row ww">
+    <div class="row ww" data-aos="fade-right">
       <div class="col-md-4 ">
         <img class="img-fluid rounded-start  " src="./images/pexels-pixabay-40568.jpg" alt="">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 " data-aos="zoom-out-right">
         <div class="card-body p-3" style="max-width: 70000px;" id="fadding">
           <h3 class="card-title">PROFESSIONAL DEVELOPMENT UNIT</h3><br>
           <p class="card-text">Since a Good Doctor is not just a healer by brain but a healer by heart too. Namma
@@ -211,9 +215,9 @@
     </div>
     <br><br><br><br>
 
-    <div class="row ww" id="second">
+    <div class="row ww" data-aos="fade-right" id="second">
 
-      <div class="col-md-8">
+      <div class="col-md-8 " data-aos="zoom-out-right">
         <div class="card-body p-3" style="max-width: 70000px;" id="fadding">
           <h3 class="card-title">MENTAL HEALTH UNIT</h3><br>
           <p class="card-text">At most priority of Doctors must be self sanity , though the tiring schedules and
@@ -230,11 +234,11 @@
     </div>
     <br><br><br><br>
 
-    <div class="row ww">
+    <div class="row ww" data-aos="fade-right">
       <div class="col-md-4 ">
         <img class="img-fluid rounded-start  " src="./images/pexels-pixabay-40568.jpg" alt="">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8   data-aos=" zoom-out-right"">
         <div class="card-body p-3" style="max-width: 7000px;" id="fadding">
           <h3 class="card-title">RESEARCH AND DEVELOPMEN UNIT</h3><br>
           <p class="card-text">Namma medicine open doors for the students to explore the field of research which adds
@@ -248,9 +252,9 @@
 
     <br><br><br><br>
 
-    <div class="row ww" id="second">
+    <div class="row ww" data-aos="fade-right" id="second">
 
-      <div class="col-md-8">
+      <div class="col-md-8 " data-aos="zoom-out-right">
         <div class="card-body p-3" style="max-width: 70000px;" id="fadding">
           <h3 class="card-title">COMMUNITY SERVICE UNIT</h3><br>
           <p class="card-text">As medicos have surrendered to serve, Namma medicine takes a step forward by
@@ -313,6 +317,9 @@
       </div>
     </div>
   </footer>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
