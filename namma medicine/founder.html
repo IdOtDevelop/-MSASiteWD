@@ -1,4 +1,3 @@
-justify-content-center text-center
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,6 +26,10 @@ justify-content-center text-center
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
         integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
@@ -166,16 +169,16 @@ justify-content-center text-center
 
 
     <!-- team details   -->
-    <div class="container" id="fadding">
+    <div class="container">
 
         <h2 class="text-center my-3"><b> FOUNDER & DIRECTORS</b></h2>
 
         <div class="row justify-content-around text-center align-items-center mx-1">
 
-            <div class="card my-3 shadow col-lg-5 col-md-5">
+            <div class="card my-3 shadow col-lg-5 col-md-5" data-aos="fade-right">
                 <div class="row no-gutters">
                     <div class="col-lg-5 col-md-12 p-0">
-                        <img src="./images/My project.png" alt="Karur Museum Image" class="card-img h-100 w-100" />
+                        <img src="./images/Ari.c.jpeg" alt="Karur Museum Image" class="card-img h-100 w-100" />
                     </div>
                     <div class="col-lg-7 col-md-12">
                         <div class="card-body">
@@ -188,10 +191,10 @@ justify-content-center text-center
                     </div>
                 </div>
             </div>
-            <div class="card my-3 shadow col-lg-5 col-md-5">
+            <div class="card my-3 shadow col-lg-5 col-md-5" data-aos="fade-left">
                 <div class="row no-gutters">
                     <div class="col-lg-5 col-md-12 p-0">
-                        <img src="./images/founder.png" alt="Karur Museum Image" class="card-img h-100 w-100" />
+                        <img src="./images/jhonny.c.jpeg" alt="Karur Museum Image" class="card-img h-100 w-100" />
                     </div>
                     <div class="col-lg-7 col-md-12">
                         <div class="card-body">
@@ -206,7 +209,7 @@ justify-content-center text-center
             </div>
 
 
-            <div class="card my-3 shadow col-lg-5 col-md-5">
+            <div class="card my-3 shadow col-lg-5 col-md-5" data-aos="fade-right">
                 <div class="row no-gutters">
                     <div class="col-lg-5 col-md-12 p-0">
                         <img src="./images/vikas.png" alt="Karur Museum Image" class="card-img h-100 w-100" />
@@ -275,7 +278,9 @@ justify-content-center text-center
         </div>
     </footer>
 
-
+<script>
+    AOS.init();
+</script>
 
 
 
