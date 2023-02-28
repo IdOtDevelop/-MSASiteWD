@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body style="background-color: black;">
    
     <nav class="navbar navbar-expand-lg  " id="na">
       <div class="container  ">
@@ -33,7 +33,7 @@
           <ul class="navbar-nav mx-auto   ">
             <li class="nav-item">
               <a class="nav-link  active" href="./index.html">
-                <div class="d-flex">
+                <div class="d-flex text-white">
                   <div class="mt-2"><span class="material-symbols-outlined " id="icon">
                       home
                       </span></div>
@@ -42,11 +42,11 @@
                 </a>
                 </li>
                 <li class="nav-item ">
-              <div class="d-flex">
+              <div class="d-flex text-white">
                 <div class="mt-3 me-"><span class="material-symbols-outlined" id="icon"> headset_mic</span></div>
                 <div class="">
                   <div class="dropdown mt-3 me-3">
-                    <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                    <a class=" dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
                       aria-expanded="false"> Who we are </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                       <li><a class="dropdown-item" href="./units.html">Units</a></li>
@@ -68,17 +68,17 @@
                       </li>
     
             <li class="nav-item ">
-              <div class="d-flex">
+              <div class="d-flex text-white">
                 <div class="mt-3"><span class="material-symbols-outlined" id="icon"> headset_mic</span></div>
                 <div class="">
                   <div class="dropdown mt-3 me-3">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       Activities
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                       <li><a class="dropdown-item" href="./events.html">Events</a></li>
                       <li><a class="dropdown-item" href="#">Current projects</a></li>
-                      <li><a class="dropdown-item" href="#">Previous Campaigns</a></li>
+                      <li><a class="dropdown-item" href="./previousEvents.html">Previous Events</a></li>
                     </ul>
                   </div>
                 </div>
@@ -87,7 +87,7 @@
             </li>
             <li class="nav-item ">
               <a class="nav-link " href="">
-                <div class="d-flex">
+                <div class="d-flex text-white">
                   <div class="mt-2"><span class="material-symbols-outlined" id="icon">
                       magic_exchange
                     </span></div>
@@ -97,8 +97,8 @@
                   </li>
                   <li class="nav-item ">
                     <a class="nav-link " href="">
-                <div class="d-flex">
-                  <div class="mt-2"><span class="material-symbols-outlined" id="icon">
+                <div class="d-flex text-white">
+                  <div class="mt-1"><span class="material-symbols-outlined" id="icon" style="font-size: 33px;">
                       groups
                     </span></div>
                   <div class="mt-2 me-3"> Meeting</div>
@@ -107,7 +107,7 @@
                   </li>
                   <li class="nav-item ">
                     <a class="nav-link " href="">
-                      <div class="d-flex">
+                      <div class="d-flex text-white">
                         <div class="mt-2"> <span class="material-symbols-outlined" id="icon">
                             magic_exchange
                     </span></div>
@@ -118,7 +118,7 @@
                   <li class="nav-item ">
     
               <a class="nav-link " href="">
-                <div class="d-flex">
+                <div class="d-flex text-white">
                   <div class="mt-2"> <span class="material-symbols-outlined" id="icon">
                       description
                     </span></div>
@@ -128,7 +128,7 @@
                   </li>
                   <li class="nav-item">
               <a class="nav-link " href="./register.html">
-                <div class="d-flex">
+                <div class="d-flex text-white">
                   <div class="mt-2"> <span class="material-symbols-outlined" id="icon">
                       login
                     </span></div>
@@ -145,8 +145,12 @@
 
 
     <section class="register">
-        <div class="register-wrap p-3 ">
-            <h2 class="mb-3" style="border-bottom: 3px solid #342f87;">Register</h2>
+      <div class="text-center h1 us p-2"
+      style=" background-image: linear-gradient(45deg, #695EE6 0%, #FF7A7A 85%);background-color:#342E86;color:white;height: 80px;border-bottom:5px solid white;margin-top: 5px ;">
+      <b>Register</b> <br><br>
+    </div>
+        <div class="register-wrap p-5 ">
+           
             <div class="row w-100">
                 <div class="col-md-6">
                     <img class="img-fluid"
@@ -155,26 +159,26 @@
                 </div>
                 <div class="col-md-6 px-5">
                     <form class="p-3" action="https://node-host.onrender.com/api/register" method="post">
-                        <div class="form-group m-3 ">
+                        <div class="form-group m-3 text-white">
                             <label for="">Full Name</label>
                             <input type="text" class="form-control" name="name" aid="name" aria-describedby=""
                                 placeholder="Enter your full name">
                         </div>
-                        <div class="form-group m-3">
+                        <div class="form-group m-3 text-white">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" name="email" id="email" aria-describedby="" placeholder="Enter email">
                             </div>
-                            <div class="form-group m-3">
+                            <div class="form-group m-3 text-white">
                                 <label for="">Contact No</label>
                                 <input type="text" class="form-control" name="mobile" id="mobile" aria-describedby=""
                                     placeholder="Enter your mobile number">
                             </div>
-                            <div class="form-group m-3">
+                            <div class="form-group m-3 text-white">
                                 <label for="">Date of Birth</label>
                             <input placeholder="Type Date of Birth" type="text" onfocus="(this.type = 'date')" class="form-control" name="dob"
                                 id="dob" aria-describedby="" placeholder="Enter your DOB">
                             </div>
-                            <div class="form-group m-3">
+                            <div class="form-group m-3 text-white">
                                 <label for="">Gender</label>
                                 <select class="form-control" name="gender">
                                     <option selected disabled>select gender</option>
@@ -185,16 +189,16 @@
                                 </select>
                             </div>
                             
-                            <div class="form-group m-3">
+                            <div class="form-group m-3 text-white">
                                 <label for="exampleInputPassword1">Password</label>
                             <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                             </div>
-                            <div class="form-group m-3">
+                            <div class="form-group m-3 text-white">
                                 <label for="">Address</label>
                                 <textarea type="text" class="form-control" id="address" name="address" aria-describedby=""
                                     placeholder="Enter full address"></textarea>
                             </div>
-                            <div class="form-check m-3">
+                            <div class="form-check m-3 text-white">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Declaration of true data</label>
                             </div>

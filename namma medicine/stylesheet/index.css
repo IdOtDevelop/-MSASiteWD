@@ -74,10 +74,10 @@ footer {
 .about,.mission{
   padding: 0 !important;
   line-height: 34px;
-  font-size: 21px;
+  font-size: 25px;
   font-family: "Inter",sans-serif;
   color: #000;
-  font-weight:500 !important;
+  /* font-weight:500 !important; */
 } 
 .us{
         display: flex;
@@ -246,4 +246,29 @@ justify-content: space-between;
 
 .light{
   font-weight: 2px !important;
+}
+
+#image{
+  display: flex !important;
+  flex-direction: row;
+  align-items: center !important;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;  
+}    
+
+.navbar-toggle.collapsed {
+  background-color: white !important;
+  border-radius: 10px !important;
+}
+
+#coin{
+  justify-content: center;
+}
+
+@media (max-width: 400px){
+#coin{
+  display: flex !important;
+  flex-direction: column !important;
+}
 }

@@ -15,7 +15,7 @@
     height: 70px;
     padding-top: 10px;
     color: white;
-    ;
+      
   }
 .box .box-img{
     border:4px solid #cecdcd;
@@ -170,4 +170,11 @@ font-size: large !important;
   font-family: "Poppins", sans-serif !important;
   font-weight: 600 !important;
   font-size: large !important;
+}
+.move{
+  padding-left: 170px;
+}
+#coin{
+  display: flex !important;
+  flex-direction: row !important;
 }

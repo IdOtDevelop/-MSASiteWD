@@ -10,9 +10,11 @@
   <link rel="icon" type="image/x-icon" href="./images/log.jpg">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="./units.css">
 
+  
 
 <!-- FontAwsome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
@@ -31,32 +33,33 @@
 
 <body>
 
-
+  <div id="particle"></div>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg  " id="na">
-    <div class="container  ">
+  <div id="overlay">
+  <nav class="navbar navbar-expand-lg text-white " id="na">
+    <div class="container text-white ">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon text-white"></span>
       </button>
   
       <div class="collapse navbar-collapse" id="collapsibleNavbar" class="navi">
         <ul class="navbar-nav mx-auto   ">
           <li class="nav-item">
             <a class="nav-link  active" href="./index.html">
-              <div class="d-flex">
-                <div class="mt-2"><span class="material-symbols-outlined " id="icon">
+              <div class="d-flex text-white">
+                <div class="mt-2 "><span class="material-symbols-outlined " id="icon">
                     home
                   </span></div>
-                <div class="mt-2 me-3" id="pad">Home</div>
+                <div class="mt-2 me-3 text-white" id="pad">Home</div>
               </div>
               </a>
               </li>
           <li class="nav-item ">
-            <div class="d-flex">
+            <div class="d-flex text-white">
               <div class="mt-3 me-"><span class="material-symbols-outlined" id="icon"> headset_mic</span></div>
               <div class="">
-                <div class="dropdown mt-3 me-3">
-                  <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                <div class="dropdown mt-3 me-3 text-white">
+                  <a class=" dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
                     aria-expanded="false"> Who we are </a>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" href="./units.html">Units</a></li>
@@ -81,15 +84,15 @@
             <div class="d-flex">
               <div class="mt-3"><span class="material-symbols-outlined" id="icon"> headset_mic</span></div>
               <div class="">
-                <div class="dropdown mt-3 me-3">
-                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                <div class="dropdown mt-3 me-3 text-white">
+                  <a class="dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Activities
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" href="./events.html">Events</a></li>
                     <li><a class="dropdown-item" href="#">Current projects</a></li>
-                    <li><a class="dropdown-item" href="#">Previous Campaigns</a></li>
+                    <li><a class="dropdown-item" href="./previousEvents.html">Previous Events</a></li>
                   </ul>
                 </div>
               </div>
@@ -98,7 +101,7 @@
             </li>
           <li class="nav-item ">
             <a class="nav-link " href="">
-              <div class="d-flex">
+              <div class="d-flex text-white">
                 <div class="mt-2"><span class="material-symbols-outlined" id="icon">
                     magic_exchange
                   </span></div>
@@ -108,8 +111,8 @@
           </li>
           <li class="nav-item ">
             <a class="nav-link " href="">
-              <div class="d-flex">
-                <div class="mt-2"><span class="material-symbols-outlined" id="icon">
+              <div class="d-flex text-white">
+                <div class="mt-1"><span class="material-symbols-outlined" id="icon"  style="font-size: 33px;">
                     groups
                   </span></div>
                 <div class="mt-2 me-3"> Meeting</div>
@@ -118,7 +121,7 @@
           </li>
           <li class="nav-item ">
             <a class="nav-link " href="">
-              <div class="d-flex">
+              <div class="d-flex text-white">
                 <div class="mt-2"> <span class="material-symbols-outlined" id="icon">
                     magic_exchange
                   </span></div>
@@ -129,7 +132,7 @@
           <li class="nav-item ">
   
             <a class="nav-link " href="">
-              <div class="d-flex">
+              <div class="d-flex text-white">
                 <div class="mt-2"> <span class="material-symbols-outlined" id="icon">
                     description
                   </span></div>
@@ -139,7 +142,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link " href="./register.html">
-              <div class="d-flex">
+              <div class="d-flex text-white">
                 <div class="mt-2"> <span class="material-symbols-outlined" id="icon">
                     login
                   </span></div>
@@ -154,9 +157,9 @@
   </nav>
 
   <!-- heading -->
-  <div id="heading">
-    <h1><b>Our Units</b> </h1>
-  </div><br>
+  <div id="heading" class="text-center" style="    background-image: linear-gradient(45deg, #695EE6 0%, #FF7A7A 85%);background-color:#342E86;color:white;height: 70px;border-bottom:5px solid white;margin: 0;">
+    <h1 class="pb-3"><b>Our Units</b> </h1>
+  </div><br><br><br>
 
   <!-- cards -->
 
@@ -238,8 +241,8 @@
       <div class="col-md-4 ">
         <img class="img-fluid rounded-start  " src="./images/research.jpeg" alt="">
       </div>
-      <div class="col-md-8   data-aos=" zoom-out-right"">
-        <div class="card-body p-3" style="max-width: 7000px;" id="fadding">
+      <div class="col-md-8"   data-aos=" zoom-out-right  ">
+        <div class="card-body p-3" style="max-width: 7000px;" id="fadding" data-aos=" zoom-out-right  ">
           <h3 class="card-title">RESEARCH AND DEVELOPMEN UNIT</h3><br>
           <p class="card-text">Namma medicine open doors for the students to explore the field of research which adds
             weight to their experience and knowledge and encourage the future doctors to focus on
@@ -270,6 +273,7 @@
 
 
   </div>
+  
   <br><br><br>
 <footer class="w-100 pt-4 flex-shrink-0">
   <div class="container py-4">
@@ -316,8 +320,19 @@
           </div>
           </div>
           </footer>
+        </div>
 <script>
   AOS.init();
+</script>
+<script src="./javascript/back.js"></script>
+<script>
+   let dropdowns=document.querySelectorAll('.dropdown-toggle')
+    dropdowns.forEach((dd) => {
+      dd.addEventListener('click', function(e) {
+        var el=this.nextElementSibling
+        el.style.display=el.style.display==='block'? 'none':'block'
+      })
+    })
 </script>
 </body>
 
